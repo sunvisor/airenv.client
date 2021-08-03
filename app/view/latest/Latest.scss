@@ -1,0 +1,45 @@
+.latest-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest-outer {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.latest-inner {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+}
+
+.latest-green {
+  background-color: #00c853;
+}
+
+.latest-yellow {
+  background-color: #fdec00;
+}
+
+.latest-red {
+  background-color: #ff2b30;
+
+}
+
+.latest-value {
+  font-family: "Myriad Pro", "Myriad Web", "Tahoma", "Helvetica", "Arial", sans-serif;
+  font-size: 120px;
+  line-height: 220px;
+  text-align: center;
+}
+
+.latest-date {
+  font-family: "Myriad Pro", "Myriad Web", "Tahoma", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
